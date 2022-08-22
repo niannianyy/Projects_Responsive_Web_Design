@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+              <meta charset="UTF-8" />
+              <link rel="stylesheet" href="./styles.css" />
+              <title>INTJ Survey</title>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       </head>
+
+       <body>
+              <div id="heading">
+                     <h1 id=title>INTJ Survey</h1>
+                     <p id="description">This survey is intended only for people who have the Myers-Briggs INTJ (Introverted-INtuitive-Thinking-Judging) personality type.</p>
+                     <p id="description">It is designed to learn more about the struggles and challenges of being an INTJ.</p>
+              </div>
+
+              <div id="main">
+                     <form id="survey-form">
+                            <div id="input-fields">
+                                   <div>
+                                          <label for="name" id="name-label">Enter Your Name: </label><br>
+                                          <input class="input" type="text" name="name" id="name" required placeholder="Name">
+                                   </div>
+                                   <div>
+                                          <label for="email" id="email-label">Enter Your Email: </label><br>
+                                          <input class="input" type="email" name="email" id="email" required placeholder="Email Address">
+                                   </div>
+                                   <div>
+                                          <label for="number" id="number-label">Enter Your Age: </label><br>
+                                          <input class="input" type="number" name="age" id="number" max="100" min="0" placeholder="Age">
+                                   </div>
+                            </div>
+
+
+                            <div id="dropdown-div"><br>
+                                   <label id="dropdown-label"><strong>Which Kind of INTJ You Are: </strong></label><br>
+                                   <select id="dropdown" name="type" class="form">
+                                          <option value="a">INTJ-A</option>
+                                          <option value="t">INTJ-T</option>
+                                   </select>
+                            </div>
+
+                            <div id="dropdown-div"><br>
+                                   <label id="dropdown-label"><strong>Which Gender You Are: </strong></label><br>
+                                   <select id="dropdown" name="gender" class="form">
+                                          <option value="male">male</option>
+                                          <option value="female">female</option>
+                                          <option value="transgender">transgender</option>
+                                          <option value="gender-neutral">gender neutral</option>
+                                          <option value="non-binary">non-binary</option>
+                                          <option value="agender">agender</option>
+                                          <option value="pangender">pangender</option>
+                                          <option value="other">other</option>
+                                   </select>
+                            </div>
+
+                            <div id="button-area"><br>
+                                   <label id="identify-label"><b>Do you recognize yourself as an INTJ in your life? </b></label><br>
+                                   <input type="radio" class="radio-inline" name="gender" value="yes" checked> Yes <br>
+                                   <input type="radio" class="radio-inline" name="gender" value="no"> No <br>
+                                   <input type="radio" class="radio-inline" name="gender" value="non-sure"> Not sure
+                            </div>
+
+                            <div id="button-area"><br>
+                                   <label id="environment-label"><b>Are there any easily identifiable INTJs around you? </b></label><br>
+                                   <input type="radio" class="radio-inline" name="environment" value="yes" checked> Yes <br>
+                                   <input type="radio" class="radio-inline" name="environment" value="no"> No <br>
+                                   <input type="radio" class="radio-inline" name="environment" value="non-sure"> Not sure
+                            </div>
+
+                            <div id="button-area"><br>
+                                   <label id="strength-label"><b>Which of the following common INTJ strengths do you have? </b></label><br>
+                                   <input type="checkbox" name="strength1" value="concept" checked> Enjoys theoretical and abstract concepts<br>
+                                   <input type="checkbox" name="strength2" value="expectation"> High expectations<br>
+                                   <input type="checkbox" name="strength3" value="listening"> Good at listening<br>
+                                   <input type="checkbox" name="strength4" value="criticism"> Takes criticism well<br>
+                                   <input type="checkbox" name="strength5" value="confident"> Self-confident and hard-working<br>
+                                   <input type="checkbox" name="strength6" value="none"> None of all<br>
+                            </div>
+
+                            <div id="button-area"><br>
+                                   <label id="weakness-label"><b>Which of the following common INTJ weaknesses do you have? </b></label><br>
+                                   <input type="checkbox" name="weakness1" value="analytical" checked> Can be overly analytical and judgmental<br>
+                                   <input type="checkbox" name="weakness2" value="perfectionistic"> Very perfectionistic<br>
+                                   <input type="checkbox" name="weakness3" value="emotion"> Dislikes talking about emotions<br>
+                                   <input type="checkbox" name="weakness4" value="callous"> Sometimes seems callous or insensitive<br>
+                                   <input type="checkbox" name="weakness5" value="none"> None of all<br>
+                            </div>
+
+                            <div id="ending"><br>
+                                   <label id="comment-label">How would you rate your personality? Do you like your own personality?</label><br>
+                                   <textarea style= height:120px;" class="form" placeholder="Feel free to write something about yourself..."></textarea><br><br>
+                                   <input id="submit" type="submit" class="form">
+                            </div>
+                     </form>
+              </div>
+       </body>
+</html>

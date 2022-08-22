@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+              <meta charset="UTF-8" />
+              <link rel="stylesheet" href="./styles.css" />
+              <title>Newton's Laws of Motion</title>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       </head>
+
+       <body>
+              <nav id="navbar">
+                     <header>Newton's Laws of Motion</header>
+                     <ul>
+                            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                            <li><a class="nav-link" href="#Prerequisites">Prerequisites</a></li>
+                            <li><a class="nav-link" href="#Laws">Laws</a></li>
+                            <li><a class="nav-link" href="#Work_and_energy">Work and energy</a></li>
+                            <li><a class="nav-link" href="#Examples">Examples</a></li>    
+                     </ul>
+              </nav>
+
+              <main id="main-doc">
+                     <section class="main-section" id="Introduction">
+                            <header>Introduction</header>
+                            <article>
+                                   <p>Newton's laws of motion are three basic laws of classical mechanics that describe the relationship between the motion of an object and the forces acting on it. These laws can be paraphrased as follows:</p>
+                                   <ul>
+                                          <li>A body remains at rest, or in motion at a constant speed in a straight line, unless acted upon by a force.</li>
+                                          <li>When a body is acted upon by a force, the time rate of change of its momentum equals the force.</li>
+                                          <li>If two bodies exert forces on each other, these forces have the same magnitude but opposite directions.</li>
+                                   </ul>
+                                   <p>The three laws of motion were first stated by Isaac Newton in his Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), originally published in 1687.</p>
+                                   <p>Newton used them to investigate and explain the motion of many physical objects and systems, which laid the foundation for classical mechanics.</p>
+                                   <p>In the time since Newton, the conceptual content of classical physics has been reformulated in alternative ways, involving different mathematical approaches that have yielded insights which were obscured in the original, Newtonian formulation. Limitations to Newton's laws have also been discovered: new theories are necessary when objects are very fast (special relativity), very massive (general relativity), or very small (quantum mechanics).</p>
+                            </article>
+                     </section>
+
+                     <section class="main-section" id="Prerequisites">
+                            <header>Prerequisites</header>
+                            <article>
+                                   <p>Newton's laws are often stated in terms of point or particle masses, that is, bodies whose volume is negligible. This is a reasonable approximation for real bodies when the motion of internal parts can be neglected, and when the separation between bodies is much larger than the size of each. For instance, the Earth and the Sun can both be approximated as pointlike when considering the orbit of the former around the latter, but the Earth is not pointlike when considering activities on its surface.</p>
+                                   <p>The mathematical description of motion, or kinematics, is based on the idea of specifying positions using numerical coordinates. Movement is represented by these numbers changing over time: a body's trajectory is represented by a function that assigns to each value of a time variable the values of all the position coordinates. The simplest case is one-dimensional, that is, when a body is constrained to move only along a straight line. Its position can then be given by a single number, indicating where it is relative to some chosen reference point.</p>
+                                   <code> delta(s) / delta(t) = (s(t1) - s(t0)) / (t1 - t0) </code>
+                                   <p>Here, the Greek letter delta is used, per tradition, to mean "change in". A positive average velocity means that the position coordinate increases over the interval in question, a negative average velocity indicates a net decrease over that interval, and an average velocity of zero means that the body ends the time interval in the same place as it began. Calculus gives the means to define an instantaneous velocity, a measure of a body's speed and direction of movement at a single moment of time, rather than over an interval. One notation for the instantaneous velocity is to replace delta with the symbol d, for example,</p>
+                                   <code> v = ds / dt </code>
+                            </article>
+                     </section>
+
+                     <section class="main-section" id="Laws">
+                            <header>Laws</header>
+                            <article>
+                                   <ul>
+                                          <li>
+                                                 <p>First</p>
+                                                 <p>Every body continues in its state of rest, or of uniform motion in a straight line, unless it is compelled to change that state by forces impressed upon it.</p>
+                                          </li>
+                                          <li>
+                                                 <p>Second</p>
+                                                 <p>The change of motion of an object is proportional to the force impressed; and is made in the direction of the straight line in which the force is impressed.</p>
+                                                 <code> p = m * v </code>
+                                                 <code> F = dp / dt </code>
+                                                 <code> F = m * a </code>
+                                          </li>
+                                          <li>
+                                                 <p>Third</p>
+                                                 <p>To every action there is always opposed an equal reaction; or, the mutual actions of two bodies upon each other are always equal, and directed to contrary parts.</p>
+                                          </li>
+                                   </ul>
+                            </article>
+                     </section>
+
+                     <section class="main-section" id="Work_and_energy">
+                            <header>Work and energy</header>
+                            <article>
+                                   <p>Physicists developed the concept of energy after Newton's time, but it has become an inseparable part of what is considered "Newtonian" physics. Energy can broadly be classified into kinetic, due to a body's motion, and potential, due to a body's position relative to others.</p>
+                                   <p>Thermal energy, the energy carried by heat flow, is a type of kinetic energy not associated with the macroscopic motion of objects but instead with the movements of the atoms and molecules of which they are made.</p>
+                                   <p>According to the work-energy theorem, when a force acts upon a body while that body moves along the line of the force, the force does work upon the body, and the amount of work done is equal to the change in the body's kinetic energy.</p>
+                                   <p>In many cases of interest, the net work done by a force when a body moves in a closed loop — starting at a point, moving along some trajectory, and returning to the initial point — is zero.</p>
+                            </article>
+                     </section>
+
+                     <section class="main-section" id="Examples">
+                            <header>Examples</header>
+                            <article>
+                                   <ul>
+                                          <li>
+                                                 <p>Uniformly accelerated motion</p>
+                                                 <p>If a body falls from rest near the surface of the Earth, then in the absence of air resistance, it will accelerate at a constant rate. This is known as free fall. The speed attained during free fall is proportional to the elapsed time, and the distance traveled is proportional to the square of the elapsed time.</p>
+                                                 <p>Importantly, the acceleration is the same for all bodies, independently of their mass. This follows from combining Newton's second law of motion with his law of universal gravitation. The latter states that the magnitude of the gravitational force from the Earth upon the body is</p>
+                                                 <code> F = GMm / (r ^ 2) </code>
+                                                 <p>where m is the mass of the falling body, M is the mass of the Earth, G is Newton's constant, and r is the distance from the center of the Earth to the body's location, which is very nearly the radius of the Earth. Setting this equal to ma, the body's mass m cancels from both sides of the equation, leaving an acceleration that depends upon G, M, and r, and r can be taken to be constant. This particular value of acceleration is typically denoted g:</p>
+                                                 <code> g = GM / (r ^ 2) = 9.8 m / (s ^ 2) </code>
+                                          </li>
+                                          <li>
+                                                 <p>Uniform circular motion</p>
+                                                 <p>When a body is in uniform circular motion, the force on it changes the direction of its motion but not its speed. For a body moving in a circle of radius r at a constant speed v, its acceleration has a magnitude</p>
+                                                 <code> a = (v ^ 2) / r </code>
+                                          </li>
+                                   </ul>
+                            </article>
+                     </section>           
+              </main>
+       </body>
+</html>
